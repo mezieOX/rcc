@@ -1,13 +1,30 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Image from 'next/image';
 import Button from '../ui/Button';
 import { Menu } from '@headlessui/react';
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 function Header() {
+  const headerRef = useRef();
+  useEffect(() => {
+    const lastScrollTop = 20;
+        window.addEventListener('scroll', function () {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          if (scrollTop > lastScrollTop) {
+            headerRef.current.style.backgroundColor = 'gray';
+          } else {
+              headerRef.current.style.backgroundColor = "black"
+          }
+    })
+  },);
+
   return (
     <div>
-      <div className="z-40 fixed mt-5 md:top-10 bg-transparent flex justify-between items-center w-full px-2 md:px-8">
+      <div
+        className="z-40 fixed mt-5 md:top-10 bg-transparent flex justify-between items-center w-full px-2 md:px-8 transition duration-300 ease-out"
+        ref={headerRef}
+      >
         <div className=" flex items-center">
           <div className="hidden lg:inline-flex mr-2 md:mr-4">
             <Image

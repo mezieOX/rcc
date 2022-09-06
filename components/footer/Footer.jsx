@@ -16,13 +16,23 @@ function Footer() {
       </div>
       <div className="flex items-center justify-center space-x-8 flex-wrap my-10 mx-auto w-80">
         <div>
-          <WhatsAppIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
+          <a
+            class="social-link"
+            href="https://wa.me/09036711571"
+            target="_blank"
+          >
+            <WhatsAppIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
+          </a>
         </div>
         <div>
-          <InstagramIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
+          <a href="http://instagram.com/meziepage" class="social-link">
+            <InstagramIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
+          </a>
         </div>
         <div>
-          <LocalPhoneIcon className="hover:!text-red-500 transition duration-200 ease-out !text-xl md:!text-xl cursor-pointer" />
+          <a href="Tel: 09067209467" class="social-link">
+            <LocalPhoneIcon className="hover:!text-red-500 transition duration-200 ease-out !text-xl md:!text-xl cursor-pointer" />
+          </a>
         </div>
       </div>
       <div className="fixed bottom-2 md:bottom-4 md:right-8  lg:bottom-10 left-2 lg:left-10">
