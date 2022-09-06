@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/layout/Layout';
+import Main from '../components/main/Main';
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Layout>
+        <Main />
+      </Layout>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
