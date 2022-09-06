@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 function Main() {
   return (
-    <div className="h-[100%] mt-40">
+    <div className="h-[100%] mt-20">
       <Carousel interval={500} showStatus={false} infiniteLoop={true} showArrows={true} showThumb={false}>
               <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[800px]">
               <Image

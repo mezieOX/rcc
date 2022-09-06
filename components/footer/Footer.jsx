@@ -28,7 +28,7 @@ function Footer() {
       <div className="fixed bottom-2 md:bottom-4 md:right-8  lg:bottom-10 left-2 lg:left-10">
         <Link href="/">
           <a>
-            <EmailIcon className="p-2 !text-[80px] !text-white shadow-lg md:!text-[100px] lg:!text-[120px]  rounded-full border border-red-500 cursor-pointer" />
+            <EmailIcon className="p-2 !text-[60px] !text-white shadow-lg md:!text-[70px] lg:!text-[90px]  rounded-full border border-red-500 cursor-pointer" />
           </a>
         </Link>
       </div>
