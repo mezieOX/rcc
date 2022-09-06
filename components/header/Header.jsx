@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Button from '../ui/Button';
 import { Menu } from '@headlessui/react';
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -26,33 +27,64 @@ function Header() {
               Menu
             </Menu.Button>
             <Menu.Items className="fixed top-1/6 md:top-32 bg-white shadow-xl border right-[10px] w-[200px] md:w-[300px] md:right-20 h-[60%] md:h-[65%] text-black font-[400] md:text-[18px] text-[10px] overflow-y-scroll scrollbar-hide lg:h-[40%] m-1 xl:h-[30%] 2xl:h-[20%] flex flex-col justify-between items-start">
-              <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">home</div>}
-              </Menu.Item>
-              <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">About us</div>}
-              </Menu.Item>
-              <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">media center</div>}
-              </Menu.Item>
-              <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">WOFBI</div>}
-                          </Menu.Item>
-                          <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">christian family</div>}
-                          </Menu.Item>
-                          <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">downloads</div>}
-                          </Menu.Item>
-                          <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">education</div>}
-                          </Menu.Item>
-                          <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">contact us</div>}
-                          </Menu.Item>
-                            <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
-                {({ active }) => <div className="">give onine</div>}
-              </Menu.Item>
+              <Link href="/">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => (
+                    <div className="">
+                      <a>home</a>
+                    </div>
+                  )}
+                </Menu.Item>
+              </Link>
+              <Link href="about">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => (
+                    <div className="">
+                      <a>About us</a>
+                    </div>
+                  )}
+                </Menu.Item>
+              </Link>
+              <Link href="media-center">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => (
+                    <div className="">
+                      {' '}
+                      <a> media center </a>{' '}
+                    </div>
+                  )}
+                </Menu.Item>
+              </Link>
+              <Link href="media-center">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => <div className="">WOFBI</div>}
+                </Menu.Item>
+              </Link>
+              <Link href="christian-family">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => <div className="">christian family</div>}
+                </Menu.Item>
+              </Link>
+              <Link href="downloads">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => <div className="">downloads</div>}
+                </Menu.Item>
+              </Link>
+              <Link href="education">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => <div className="">education</div>}
+                </Menu.Item>
+              </Link>
+              <Link href="contact-us">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => <div className="">contact us</div>}
+                </Menu.Item>
+              </Link>
+              <Link href="give-online">
+                <Menu.Item className="transition duration-200 hover:bg-black hover:text-white px-3 py-2 md:px-6 md:py-4 ease-out uppercase w-full">
+                  {({ active }) => <div className="">give online</div>}
+                </Menu.Item>
+              </Link>
             </Menu.Items>
           </Menu>
         </div>
