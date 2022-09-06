@@ -20,6 +20,7 @@ function Footer() {
             className="social-link"
             href="https://wa.me/09036711571"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <WhatsAppIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
           </a>
