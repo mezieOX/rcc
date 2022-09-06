@@ -9,25 +9,25 @@ function Main() {
       <Carousel interval={500} showStatus={false} infiniteLoop={true} showArrows={true}>
               <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px]">
               <Image
-            src="/images/photo-1606443410339-4046fad7a16a.avif"
+            src="/images/istockphoto-522403165-612x612.jpg"
             layout="fill"
           />
         </div>
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] ">
           <Image
-            src="/images/istockphoto-1408224396-170667a.jpg"
+            src="/images/istockphoto-1011940756-612x612.jpg"
             layout="fill"
           />
         </div>
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] ">
         <Image
-            src="/images/photo-1642325017820-d081feea1969.avif"
+            src="/images/istockphoto-1036529282-612x612.jpg"
             layout="fill"
           />
         </div>
         <div className="relative h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] ">
           <Image
-            src="/images/1226267-middle.png"
+            src="/images/istockphoto-1165467953-612x612.jpg"
             layout="fill"
           />
         </div>
