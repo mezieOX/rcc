@@ -17,20 +17,21 @@ function Footer() {
       <div className="flex items-center justify-center space-x-8 flex-wrap my-10 mx-auto w-80">
         <div>
           <a
-            class="social-link"
+            className="social-link"
             href="https://wa.me/09036711571"
             target="_blank"
+            rel="noreferrer"
           >
             <WhatsAppIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
           </a>
         </div>
         <div>
-          <a href="http://instagram.com/meziepage" class="social-link">
+          <a href="http://instagram.com/meziepage" className="social-link">
             <InstagramIcon className="hover:!text-red-500 transition duration-200 ease-out !text-lg md:!text-xl cursor-pointer" />
           </a>
         </div>
         <div>
-          <a href="Tel: 09067209467" class="social-link">
+          <a href="Tel: 09067209467" className="social-link">
             <LocalPhoneIcon className="hover:!text-red-500 transition duration-200 ease-out !text-xl md:!text-xl cursor-pointer" />
           </a>
         </div>
