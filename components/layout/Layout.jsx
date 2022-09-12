@@ -8,7 +8,7 @@ function Layout({ title, children }) {
     <div className="flex flex-col min-h-screen justify-between">
       <Head>
         <title>{title ? title + ' - RCC' : 'RCC'}</title>
-              <meta name="viewport" content="initial-scale=1.0, width=device-width" description="RCC Company Official Website!!!" />
+              <meta name="RCC Nigeria" content="RCC Company Official Website!!!" />
               <link rel="shortcut icon" href="/images/609-6094933_rcc-logo-graphic-design-hd-png-download.png" className="rounded-full" />
       </Head>
       <header>
