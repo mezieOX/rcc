@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
-import VideoIcon from '@material-ui/icons/VideoIcon';
+import WhatsappIcon from '@material-ui/icons/Whatsapp';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import SearchIcon from '@material-ui/icons/Search';
 import { IconButton } from '@material-ui/core';
@@ -21,7 +21,7 @@ function Header() {
                   <PhotoCameraIcon className="!text-gray-500 !text-xs" />
               </div>
               <div>
-                  <VideoIcon className="!text-gray-500 !text-xs" />
+                  <WhatsappIcon className="!text-gray-500 !text-xs" />
               </div>
               <div>
                   <InstagramIcon  className="!text-gray-500 !text-xs" />
