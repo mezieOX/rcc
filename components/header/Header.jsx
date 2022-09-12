@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
-import YoutubeIcon from '@material-ui/icons/Youtube';
+import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import SearchIcon from '@material-ui/icons/Search';
 import SubHeader from './SubHeader';
@@ -21,7 +21,7 @@ function Header() {
                   <PhotoCameraIcon className="!text-gray-500 sm:!text-lg !text-xs lg:!text-xl xl:text-2xl" />
               </div>
               <div>
-                  <YoutubeIcon className="sm:!text-lg !text-gray-500 !text-xs lg:!text-xl xl:text-2xl" />
+                  <TwitterIcon className="sm:!text-lg !text-gray-500 !text-xs lg:!text-xl xl:text-2xl" />
               </div>
               <div>
                   <InstagramIcon  className="sm:!text-lg !text-gray-500 !text-xs lg:!text-xl xl:text-2xl" />
