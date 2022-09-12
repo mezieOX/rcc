@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
-import WhatsappIcon from '@material-ui/icons/Whatsapp';
+// import WhatsappIcon from '@material-ui/icons/Whatsapp';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import SearchIcon from '@material-ui/icons/Search';
 import { IconButton } from '@material-ui/core';
@@ -20,9 +20,9 @@ function Header() {
               <div>
                   <PhotoCameraIcon className="!text-gray-500 !text-xs" />
               </div>
-              <div>
+              {/* <div>
                   <WhatsappIcon className="!text-gray-500 !text-xs" />
-              </div>
+              </div> */}
               <div>
                   <InstagramIcon  className="!text-gray-500 !text-xs" />
               </div>
